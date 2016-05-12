@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+          <meta charset="utf-8">
+          <link rel="stylesheet" href="gmail.css">
+          <script   src="https://code.jquery.com/jquery-2.2.3.js"   integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4="   crossorigin="anonymous"></script>
+          <link rel="text/javascript" href="create.js">
+          <title></title>
+    </head>
+
+<body>
+    <nav>
+        <ul>
+            <li><button class="send">Send</button></li>
+            <li><button class="save">Save Draft</button></li>
+            <li><button class="discard">Discard</button></li>
+          </ul>
+    </nav>
+
+<div id="container"> <!--  start of end of container -->
+    <div id="to">
+        <label>To:</label>
+        <span><textarea class="text"></textarea></span>
+    </div>
+
+    <div id="cc">
+      <label>CC:</label>
+      <span><textarea class="text"></textarea></span>
+    </div>
+
+    <div  id="bcc">
+      <label>BCC:</label>
+      <span><textarea class="text"></textarea></span>
+    </div>
+
+    <div id="Subject">
+      <label>Subject:</label>
+      <span><textarea class="text"></textarea></span>
+    </div>
+
+    <div id="attach">
+      <label>Attachments:</label>
+      <span><input type="file" id="attachment"></input></span>
+    </div>
+</div>
+
+<div id="container2"> <!--  start of compose container -->
+  <div>
+      <textarea class="email"></textarea>
+    </div>
+</div><!-- end of compose text box -->
+
+  <nav><!--  start of send confirmation buttons -->
+      <ul>
+          <li><button class="send">Send</button></li>
+          <li><button class="save">Save Draft</button></li>
+          <li><button class="discard">Discard</button></li>
+          <li></li>
+        </ul>
+  </nav> <!--  end of send confirmation buttons -->
+
+</body>
+</html>

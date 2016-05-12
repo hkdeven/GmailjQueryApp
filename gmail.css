@@ -1,0 +1,48 @@
+body {
+  margin: opx;
+  font-family: arial,sans-serif;
+}
+
+ul {
+  background-color: #c3d9ff;
+  margin: 0px;
+  padding: 0.5em 0;
+}
+
+li{
+  display: inline-block;
+padding: 0 0.5em;
+}
+.text{
+  width: 85%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: initial;
+  padding: 2px;
+}
+
+div{
+  background-color: #e0ecff;
+}
+#cc input{
+}
+#container{
+  padding-left: 5%;
+  background-color: #e0ecff;
+/*padding: 2px;*/
+border: 4px solid #c3d9ff;
+}
+label{
+  display: inline-block;
+  width: 100%;
+}
+.email{
+  width=50%;
+  height: 30em;
+}
+#container2{
+  background-color: #e0ecff;
+padding: 2px;
+border: 4px solid #c3d9ff;
+padding-left: 5%;
+}
